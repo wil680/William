@@ -1,5 +1,11 @@
-import React from "react";
-
 export default function Button({ children }) {
-  return <button className="btn">{children}</button>;
+  function handleClick() {
+    alert("clicked");
+  }
+
+  return (
+    <button onClick={handleClick} className="btn">
+      {children}
+    </button>
+  );
 }

@@ -1,0 +1,19 @@
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #8c82fc;
+}
