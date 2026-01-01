@@ -1,0 +1,21 @@
+import { FaGithub, FaEnvelope, FaLinkedin, FaFile } from "react-icons/fa";
+import "./Icons.css";
+
+export default function Icons() {
+  return (
+    <div className="icons">
+      <a href="https://github.com/wil680" target="_blank">
+        <FaGithub size={30} />
+      </a>
+      <a href="mailto:wy4pang@uwaterloo.ca?subject=Hi" target="_blank">
+        <FaEnvelope size={30} />
+      </a>
+      <a href="https://www.linkedin.com/in/william-pang-2c3/" target="_blank">
+        <FaLinkedin size={30} />
+      </a>
+      <a href="" target="_blank">
+        <FaFile size={30} />
+      </a>
+    </div>
+  );
+}

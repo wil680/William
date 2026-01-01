@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+}
+
+#about-me {
+  font-size: 12px;
+  text-align: center;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}

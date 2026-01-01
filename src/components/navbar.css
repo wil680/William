@@ -1,5 +1,8 @@
 .navbar {
+  display: flex;
+  align-items: center;
   padding: 10px 20px;
+  justify-content: space-between;
 }
 
 .navbar-ul {
@@ -16,4 +19,9 @@ a {
 
 a:hover {
   color: #8c82fc;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: bold;
 }

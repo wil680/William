@@ -1,10 +1,6 @@
-export default function Button({ children }) {
-  function handleClick() {
-    alert("clicked");
-  }
-
+export default function Button({ children, onClick }) {
   return (
-    <button onClick={handleClick} className="btn">
+    <button className="btn" onClick={onClick}>
       {children}
     </button>
   );
