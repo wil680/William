@@ -18,25 +18,30 @@ function Logo() {
 }
 
 function Menu() {
+  function handleScroll(section) {
+    const element = document.getElementById(section);
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <ul className="navbar-ul">
       <li>
-        <a className="navbar-a" href="#page">
+        <a className="navbar-a" onClick={() => handleScroll("page")}>
           Home
         </a>
       </li>
       <li>
-        <a className="navbar-a" href="#about">
+        <a className="navbar-a" onClick={() => handleScroll("about")}>
           About me
         </a>
       </li>
       <li>
-        <a className="navbar-a" href="#experience">
+        <a className="navbar-a" onClick={() => handleScroll("experience")}>
           Experience
         </a>
       </li>
       <li>
-        <a className="navbar-a" href="#projects">
+        <a className="navbar-a" onClick={() => handleScroll("projects")}>
           {" "}
           Projects
         </a>

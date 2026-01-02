@@ -21,7 +21,7 @@ export default function Projects() {
     {
       name: "Bedside Physical Assistant",
       description:
-        "an Arduino UNO R4 assistant using C++ that integrates motion, heart-rate, and audio sensors to support patient engagement and delirium prevention.",
+        "An Arduino UNO R4 assistant using C++ that integrates motion, heart-rate, and audio sensors to support patient engagement and delirium prevention.",
       technology: "C++, Arduino",
       github: "https://github.com/physical-assistant/physical-assistant",
     },
