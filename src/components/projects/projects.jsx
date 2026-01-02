@@ -9,21 +9,21 @@ export default function Projects() {
       description:
         "A full-stack scheduling web app featuring secure Google login, a responsive calendar interface, and PostgreSQL-backed attendance tracking.",
       technology: "Node.js, React.js, Javascript",
-      github: "https://github.com/wil680",
+      github: "https://github.com/wil680/coordinate",
     },
     {
       name: "BudgetQuest",
       description:
         "an offline financial literacy mobile game using Expo SQLite and JavaScript, with persistent game state, dynamic UI components, and automated reports.",
       technology: "React Native, Typescript, Expo, SQLite",
-      github: "https://github.com/wil680",
+      github: "https://github.com/wil680/budget-quest",
     },
     {
       name: "Bedside Physical Assistant",
       description:
         "an Arduino UNO R4 assistant using C++ that integrates motion, heart-rate, and audio sensors to support patient engagement and delirium prevention.",
       technology: "C++, Arduino",
-      github: "https://github.com/wil680",
+      github: "https://github.com/physical-assistant/physical-assistant",
     },
   ];
 
@@ -37,7 +37,7 @@ export default function Projects() {
               <div className="project-content">
                 <div className="project-heading">
                   <FiLayers size={24}></FiLayers>
-                  <a href="https://github.com/wil680" target="_blank">
+                  <a href={project.github} target="_blank">
                     <FaGithub size={20} />
                   </a>
                 </div>
