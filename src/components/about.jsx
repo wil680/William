@@ -5,12 +5,16 @@ export default function About() {
         <h2 className="subsection-title">About me</h2>
         <div className="subsection-body">
           <p>
-            Currently I am in my 1A term of Computer Engineering at Waterloo.
-            This winter I am interning at{" "}
+            I’m a 1A Computer Engineering student at the{" "}
+            <a href="https://uwaterloo.ca/" target="_blank">
+              <span className="highlight">University of Waterloo</span>
+            </a>{" "}
+            with a growing interest in software engineering. This winter, I’m
+            interning at{" "}
             <a href="https://www.port443.io/" target="_blank">
               <span className="highlight">Port 443</span>
             </a>
-            .
+            , where I’m learning by building and working on real-world projects.
           </p>
 
           <p>Technology I'm familiar with:</p>

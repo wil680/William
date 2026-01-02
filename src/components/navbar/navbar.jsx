@@ -10,23 +10,36 @@ export default function Navbar() {
 }
 
 function Logo() {
-  return <h1 id="logo"> William Pang</h1>;
+  return (
+    <a href="https://williampang.com">
+      <h1 id="logo"> William Pang</h1>
+    </a>
+  );
 }
 
 function Menu() {
   return (
     <ul className="navbar-ul">
       <li>
-        <a className="navbar-a" href="page">Home</a>
+        <a className="navbar-a" href="#page">
+          Home
+        </a>
       </li>
       <li>
-        <a className="navbar-a" href="#about">About me</a>
+        <a className="navbar-a" href="#about">
+          About me
+        </a>
       </li>
       <li>
-        <a className="navbar-a" href="#experience">Experience</a>
+        <a className="navbar-a" href="#experience">
+          Experience
+        </a>
       </li>
       <li>
-        <a className="navbar-a" href="#projects"> Projects</a>
+        <a className="navbar-a" href="#projects">
+          {" "}
+          Projects
+        </a>
       </li>
     </ul>
   );
