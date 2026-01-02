@@ -7,7 +7,7 @@ import Icons from "./components/icons/icons";
 import Description from "./components/header/description";
 import About from "./components/about";
 import Experience from "./components/experience/experience";
-import Projects from "./components/projects";
+import Projects from "./components/projects/projects";
 
 export default function App() {
   function handleClick() {

@@ -1,0 +1,24 @@
+.project {
+  border: 1px solid;
+  border-color: #8c82fc;
+  width: 100%;
+  border-radius: 16px;
+  min-height: 380px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 800px;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-content {
+  padding: 2rem;
+}
+
