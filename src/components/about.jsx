@@ -25,6 +25,11 @@ export default function About() {
             <li>Typescript</li>
             <li>React</li>
           </ul>
+          <p>
+            I’m currently exploring full-stack development and interested in
+            machine learning. Outside of tech, I enjoy playing the piano,
+            playing poker, and binge watching Netflix.
+          </p>
         </div>
       </div>
     </div>

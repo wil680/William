@@ -6,7 +6,7 @@ import Navbar from "./components/navbar/navbar";
 import Icons from "./components/icons/icons";
 import Description from "./components/header/description";
 import About from "./components/about";
-import Experience from "./components/experience";
+import Experience from "./components/experience/experience";
 import Projects from "./components/projects";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
   }
 
   return (
-    <div className="page">
+    <div className="page" id="page">
       <Navbar />
       <div className="intro-page">
         <Title />

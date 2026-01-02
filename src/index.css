@@ -84,13 +84,14 @@ button:focus-visible {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
 }
 
 .subsection-title {
   width: 100%;
   max-width: 800px;
   text-align: left;
+  font-size: 32px;
 }
 
 .subsection-body {
@@ -106,4 +107,15 @@ p {
 
 li {
   line-height: 2;
+}
+
+#about {
+  padding: 1rem;
+}
+
+#experience {
+  padding: 1rem;
+}
+#projects {
+  padding: 1rem;
 }

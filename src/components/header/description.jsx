@@ -1,7 +1,7 @@
 export default function Description() {
   return (
     <p id="description">
-      I'm a student at the University of Waterloo studying Computer Engineering.
+      Currently studying Computer Engineering at the University of Waterloo.
     </p>
   );
 }
