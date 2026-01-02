@@ -17,13 +17,14 @@ export default function App() {
   return (
     <div className="page">
       <Navbar />
-
-      <Title />
-      <Description />
-      <div className="email-container">
-        <Button onClick={handleClick}>Email me</Button>
+      <div className="intro-page">
+        <Title />
+        <Description />
+        <div className="email-container">
+          <Button onClick={handleClick}>Email me</Button>
+        </div>
+        <Icons />
       </div>
-      <Icons />
       <About />
       <Experience />
       <Projects />

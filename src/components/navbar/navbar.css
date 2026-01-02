@@ -3,6 +3,8 @@
   align-items: center;
   padding: 10px 20px;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-ul {
@@ -11,6 +13,7 @@
   padding: 0;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 a {
