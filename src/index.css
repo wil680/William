@@ -75,3 +75,12 @@ button:focus-visible {
 .btn:hover {
   background-color: #676ee9;
 }
+
+.subsection {
+  padding: 2rem 1.3rem;
+}
+
+.subsection-body {
+  padding: 12px 0;
+  color: #c0c0c0;
+}

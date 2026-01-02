@@ -17,18 +17,17 @@ function Menu() {
   return (
     <ul className="navbar-ul">
       <li>
-        <a>Home</a>
+        <a className="navbar-a" href="page">Home</a>
       </li>
       <li>
-        <a>About me</a>
+        <a className="navbar-a" href="#about">About me</a>
       </li>
       <li>
-        <a>Experience</a>
+        <a className="navbar-a" href="#experience">Experience</a>
       </li>
       <li>
-        <a>Projects</a>
+        <a className="navbar-a" href="#projects"> Projects</a>
       </li>
     </ul>
   );
 }
-

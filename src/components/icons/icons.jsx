@@ -13,7 +13,7 @@ export default function Icons() {
       <a href="https://www.linkedin.com/in/william-pang-2c3/" target="_blank">
         <FaLinkedin size={30} />
       </a>
-      <a href="" target="_blank">
+      <a href="resume.pdf" target="_blank">
         <FaFile size={30} />
       </a>
     </div>

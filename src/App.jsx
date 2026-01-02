@@ -1,10 +1,13 @@
 import "./App.css";
-import Title from "./components/header";
+import Title from "./components/header/header";
 import Footer from "./components/footer";
-import Button from "./components/button";
-import Navbar from "./components/navbar";
-import Icons from "./components/icons";
-import Description from "./components/description";
+import Button from "./components/common/button";
+import Navbar from "./components/navbar/navbar";
+import Icons from "./components/icons/icons";
+import Description from "./components/header/description";
+import About from "./components/about";
+import Experience from "./components/experience";
+import Projects from "./components/projects";
 
 export default function App() {
   function handleClick() {
@@ -12,7 +15,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="page">
       <Navbar />
 
       <Title />
@@ -21,6 +24,9 @@ export default function App() {
         <Button onClick={handleClick}>Email me</Button>
       </div>
       <Icons />
+      <About />
+      <Experience />
+      <Projects />
       <Footer />
     </div>
   );
