@@ -8,9 +8,10 @@ export default function Experience() {
       link: "https://www.port443.io/",
       date: "January 2026 - Present",
       description: [
-        "Contributed to software development projects, including implementing new features and resolving bugs to ensure high-quality deliverables.",
-        "Developed and executed unit tests to improve code reliability and maintainability.",
-        "Actively participated in Agile development teams, collaborating on sprint planning, code reviews, and continuous integration efforts",
+        "Refactored 6+ feature modules across the Angular frontend for a business management SaaS by decomposing monolithic logic and eliminating redundant code, reducing production errors by 85%",
+        "Implemented backend functionality in C# and .NET framework, designing a robust error handling system across the service layer that eliminated unhandled crashes in production",
+        "Identified testing gaps and designed 200+ rigorous automated tests with Jest and Playwright to validate business logic and UI behavior, reducing regression bugs by 25% over three release cycles",
+        "Developed reusable and modular Angular components adopted across 3+ features with TypeScript, improving code maintainability",
       ],
     },
     {
