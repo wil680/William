@@ -12,18 +12,25 @@ export default function Projects() {
       github: "https://github.com/wil680/coordinate",
     },
     {
+      name: "Auction Bid Processing System",
+      description:
+        "Auction backend with real-time bidding, high-throughput processing, and consistent winner selection.",
+      technology: "Go, Gin, Redis",
+      github: "https://github.com/wil680",
+    },
+    {
+      name: "Texas Hold’em Game Engine",
+      description:
+        "Poker engine with modular OOP design, state machine game flow, and optimized hand evaluation using rank lookup tables.",
+      technology: "C++",
+      github: "https://github.com/wil680/poker-engine",
+    },
+    {
       name: "BudgetQuest",
       description:
         "an offline financial literacy mobile game using Expo SQLite and JavaScript, with persistent game state, dynamic UI components, and automated reports.",
       technology: "React Native, Typescript, Expo, SQLite",
       github: "https://github.com/wil680/budget-quest",
-    },
-    {
-      name: "Bedside Physical Assistant",
-      description:
-        "An Arduino UNO R4 assistant using C++ that integrates motion, heart-rate, and audio sensors to support patient engagement and delirium prevention.",
-      technology: "C++, Arduino",
-      github: "https://github.com/physical-assistant/physical-assistant",
     },
   ];
 
